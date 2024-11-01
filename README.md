@@ -31,5 +31,7 @@ This project is a web crawler and scraper developed in Go using the Colly framew
    go get -u github.com/gocolly/colly/v2
 5. Run the application
    go run main.go
+The scraped data will be saved in your run location: scraped_data.jsonl
+
 
 
