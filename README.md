@@ -26,11 +26,19 @@ This project is a web crawler and scraper developed in Go using the Colly framew
    git clone https://github.com/mvellucci100/MSDS431Week5.git
    cd MSDS431Week5
 2. Initialize the Go Module:
+   ```bash
    go mod init go-web-scraper
-4. Install Colly framework:
+4. Install Colly framework and unit test dependency:
+   ```bash
    go get -u github.com/gocolly/colly/v2
-5. Run the application
+   go get -u github.com/strechr/testify
+6. Run the application
+   ``bash
    go run main.go
+
+7. Run the test
+   ```bash
+   go test -v
 The scraped data will be saved in your run location: scraped_data.jsonl
 
 
