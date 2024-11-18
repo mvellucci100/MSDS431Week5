@@ -27,7 +27,7 @@ func main() {
     // Create a new collector
     c := colly.NewCollector()
 
-    // Create a slice to hold the scraped data
+    // Create slice to hold the scraped data
     var results []map[string]string
 
     // Define what to do when a visited HTML element is found
