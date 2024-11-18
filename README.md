@@ -27,9 +27,10 @@ This project is a web crawler and scraper developed in Go using the Colly framew
    cd MSDS431Week5
 2. Initialize the Go Module:
    go mod init go-web-scraper
-4. Install Colly framework:
+4. Install Colly framework and unit test dependency:
    go get -u github.com/gocolly/colly/v2
-5. Run the application
+   go get -u github.com/strechr/testify
+6. Run the application
    go run main.go
 The scraped data will be saved in your run location: scraped_data.jsonl
 
